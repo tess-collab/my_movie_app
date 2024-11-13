@@ -1,0 +1,44 @@
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf1f0; 
+  }
+
+  .card {
+    background-color: #bcc2c1; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+
+  .navbar-custom {
+    background-color: #c8d4d2; 
+    color: black; 
+    padding: 10px;
+    border: 6px; 
+    border-color: black;
+    border-radius: 9px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+
+  .bordered-container {
+    border: 2px solid black; 
+    padding: 35px;             /* Space inside the border */
+    margin: 35px auto;         /* Space outside the container */
+    /*max-width: 800px; */         
+    border-radius: 8px;        
+    background-color: #c9dcd9; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
